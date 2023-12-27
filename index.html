@@ -4,16 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <title>zxczxccc</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
+
+    <!-- header -->
+
     <header class="header">
         <div class="container">
             <a class="header__logo" href="./index.html"><span class="header__logo--colored">Web</span>Studio</a>
@@ -32,96 +39,92 @@
         </div>
     </header>
 
+
+
+    <!-- main -->
+
     <main>
         <section class="hero">
-            <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="hero__button" type="button">Замовити послугу</button>
+            <div class="container">
+                <h1 class="hero__title">Effective solutions for your business</h1>
+                <button class="hero__button" type="button">Order a service</button>
+            </div>
         </section>
 
-        <section class="informaition">
-            <ul class="informaition__list">
-                <li class="informaition__list-item">
-                    <h3 class="informaition__list__subtitle">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="informaition__list__text">Ідейні міркування, і навіть початок повсякденної роботи з
-                        формування позиції.</p>
-                </li>
-                <li class="informaition__list-item">
-                    <h3 class="informaition__list__subtitle">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="informaition__list__text">Завдання організації, особливо рамки і місце навчання кадрів
-                        тягне у себе.</p>
-                </li>
-                <li class="informaition__list-item">
-                    <h3 class="informaition__list__subtitle">ПЛАНУВАННЯ</h3>
-                    <p class="informaition__list__text">Так само консультація з широким активом значною мірою зумовлює.
-                    </p>
-                </li>
-                <li class="informaition__list-item">
-                    <h3 class="informaition__list__subtitle">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="informaition__list__text">Значимість цих проблем настільки очевидна, що реалізація
-                        планових завдань.</p>
-                </li>
-            </ul>
+        <section class="information">
+            <div class="container">
+                <ul class="information__list">
+                    <li class="information__item">
+                        <h3 class="information__title">ATTENTION TO DETAILS</h3>
+                        <p class="information__text">Ideological considerations,
+                            and even the beginning of daily work on forming a position.</p>
+                    </li>
+                    <li class="information__item">
+                        <h3 class="information__title">PUNCTUALITY</h3>
+                        <p class="information__text">The task of the organization,
+                            especially the framework and the place of personnel training, attracts.</p>
+                    </li>
+                    <li class="information__item">
+                        <h3 class="information__title">PLANNING</h3>
+                        <p class="information__text">Likewise, consultation with a broad asset largely determines.</p>
+                    </li>
+                    <li class="information__item">
+                        <h3 class="information__title">MODERN TECHNOLOGY</h3>
+                        <p class="information__text">The importance of these problems
+                            is so obvious that the implementation of planned tasks.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
+
         <section class="works">
-            <h2 class="works__title">
-                Чим ми займаємося
-            </h2>
-            <ul class="works__list">
-                <li class="works__list-item">
-                    <img src="./img/works/box-1.jpg" alt="working man">
-                </li>
-                <li class="works__list-item">
-                    <img src="./img/works/box-2.jpg" alt="working man">
-                </li>
-                <li class="works__list-item">
-                    <img src="./img/works/box-3.jpg" alt="working man">
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="works__subtitle">What do we do?</h2>
+                <ul class="works__list">
+                    <li class="works__item"><img class="works__img" src="./img/works/box-1.jpg" alt="ppl working"></li>
+                    <li class="works__item"><img class="works__img" src="./img/works/box-2.jpg" alt="ppl working"></li>
+                    <li class="works__item"><img class="works__img" src="./img/works/box-3.jpg" alt="ppl working"></li>
+                </ul>
+            </div>
         </section>
-        <section class="team">
-            <h2 class="team__title">
-                Наша команда
-            </h2>
-            <ul class="team__list">
-                <li class="team__list-item">
-                    <img class="team__item__img" src="./img/team/igor.jpg" alt="Igor">
-                    <h3 class="team__item__subtitle">
-                        Ігор Дем'яненко
-                    </h3>
-                    <p class="team__item__text">Product Designer</p>
-                </li>
-                <li class="team__list-item">
-                    <img class="team__item__img" src="./img/team/olga.jpg" alt="Olga">
-                    <h3 class="team__item__subtitle">
-                        Ольга Рєпіна
-                    </h3>
-                    <p class="team__item__text">Frontend Developer</p>
-                </li>
-                <li class="team__list-item">
-                    <img class="team__item__img" src="./img/team/mukola.jpg" alt="Mukola">
-                    <h3 class="team__item__subtitle">
-                        Микола Тарасов
-                    </h3 class="team__item__text">
-                    <p class="team__item__text">Marketing</p>
-                </li>
-                <li class="team__list-item">
-                    <img class="team__item__img" src="./img/team/muxa.jpg" alt="Muxa">
-                    <h3 class="team__item__subtitle">
-                        Михайло Єрмаков
-                    </h3>
-                    <p class="team__item__text">UI Designer</p>
-                </li>
-            </ul>
-        </section>
-        <main>
-            <footer class="footer">
-                <div class="container">
-                    <a class="footer__title" href="#">Web<span class="footer__text--colored">Studio</span></a>
-                    <a class="footer__adress" href="#">Kyiv, 26 Lesi Ukrainky Ave</a>
-                    <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    <a class="footer__link" href="tel:++380961111111">+38 096 111 11 11</a>
-                </div>
-            </footer>
-</body>
 
+        <section class="team">
+            <div class="container">
+                <h2 class="team__subtitle">Our team</h2>
+                <ul class="team__list">
+                    <li class="team__item">
+                        <img class="team__img" src="./img/team/igor.jpg" alt="ppl" width="400">
+                        <h3 class="team__name">Ihor Demyanenko</h3>
+                        <p class="team__text">Product Designer</p>
+                    </li>
+                    <li class="team__item">
+                        <img class="team__img" src="./img/team/olga.jpg" alt="ppl" width="400">
+                        <h3 class="team__name">Olha Ryepina</h3>
+                        <p class="team__text">Frontend Developer</p>
+                    </li>
+                    <li class="team__item">
+                        <img class="team__img" src="./img/team/muxa.jpg" alt="ppl" width="400">
+                        <h3 class="team__name">Mykola Tarasov</h3>
+                        <p class="team__text">Marketing</p>
+                    </li>
+                    <li class="team__item">
+                        <img class="team__img" src="./img/team/mukola.jpg" alt="ppl" width="400">
+                        <h3 class="team__name">Мыхайло Йермаков</h3>
+                        <p class="team__text">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a class="footer__title" href="#">Web<span class="footer__text--colored">Studio</span></a>
+            <a class="footer__adress" href="#">Kиев, 26 Lesi Ukrainky Ave</a>
+            <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer__link" href="tel:++380961111111">+38 096 111 11 11</a>
+        </div>
+    </footer>
+
+</body>
 </html>
