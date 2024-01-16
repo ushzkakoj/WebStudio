@@ -5,8 +5,10 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-}
+
+  font-family: ‘Inter’;
+ 
+ };
 
 .container {
   width: 1200px;
