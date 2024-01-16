@@ -1,120 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebStudio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
+
 <body>
-
-
     <header class="header">
         <div class="container">
             <a class="header__logo" href="./index.html"><span class="header__logo--colored">Web</span>Studio</a>
             <nav class="header__nav">
                 <ul class="header__nav__list">
-                    <li class="header__nav__item"><a class="header__nav__link" href="./index.html">Studio</a></li>
-                    <li class="header__nav__item"><a class="header__nav__link" href="./portfolio.html">Portfolio</a>
+                    <li class="header__nav__item"><a class="header__nav__link" href="./index.html">Студія</a></li>
+                    <li class="header__nav__item"> <a class="header__nav__link" href="./portfolio.html">Портфоліо</a>
                     </li>
-                    <li class="header__nav__item"><a class="header__nav__link" href="#">Contacts</a></li>
+                    <li class="header__nav__item"> <a class="header__nav__link" href="#">Контакти</a></li>
                 </ul>
             </nav>
             <ul class="header__contact__list">
-                <li><a class="header__contact__link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="header__contact__link" href="tel:++380961111111">+38 096 111 11 11</a></li>
+                <li class="header__contact__item"><a href="meilto:info@devstudio.com"
+                        class="header__contact__link">info@devstudio.com</a></li>
+                <li class="header__contact__item"><a href="tel:+380961111111" class="header__contact__link">+38 096 111
+                        11 11</a></li>
             </ul>
         </div>
     </header>
-    
-    <main>
-        <section class="project-buttons">
+    <main class="portfolio__main">
+        <section class="services">
             <div class="container">
-                <ul class="project-buttons__list">
-                    <li class="project-buttons__item">
-                        <button class="project-buttons__button">Everyone</button>
-                    </li>
-                    <li class="project-buttons__item">
-                        <button class="project-buttons__button">Websites</button>
-                    </li>
-                    <li class="project-buttons__item">
-                        <button class="project-buttons__button">Add</button>
-                    </li>
-                    <li class="project-buttons__item">
-                        <button class="project-buttons__button">Design</button>
-                    </li>
-                    <li class="project-buttons__item">
-                        <button class="project-buttons__button">Marketing</button>
-                    </li>
+                <ul class="services__list">
+                    <li class="services__item"><button class="services__buttons" type="button">Усі</button></li>
+                    <li class="services__item"><button class="services__buttons" type="button">Веб-сайти</button></li>
+                    <li class="services__item"><button class="services__buttons" type="button">Додатки</button></li>
+                    <li class="services__item"><button class="services__buttons" type="button">Дизайн</button></li>
+                    <li class="services__item"><button class="services__buttons" type="button">Маркетинг</button></li>
                 </ul>
             </div>
         </section>
-        <section class="projects">
+        <section class="advertisement">
             <div class="container">
-                <ul class="projects-list">
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/1.jpg" alt="">
-                        <h3 class="projects-title">Tech</h3>
-                        <p class="projects-text">Web-site</p>
+                <ul class="advertisement__list">
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/1.jpg" alt="" />
+                        <h3 class="advertisement__title">Технокряк</h3>
+                        <p class="advertisement__subtitle">Веб-сайти</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/2.jpg" alt="">
-                        <h3 class="projects-title">New Orleans vs Golden Star poster</h3>
-                        <p class="projects-text">Design</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/2.jpg" alt="" />
+                        <h3 class="advertisement__title">Постер New Orlean vs Golden Star</h3>
+                        <p class="advertisement__subtitle">Дизайн</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/3.jpg" alt="">
-                        <h3 class="projects-title">Seafood restaurant</h3>
-                        <p class="projects-text">Addition</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/3.jpg" alt="" />
+                        <h3 class="advertisement__title">Ресторан Seafood</h3>
+                        <p class="advertisement__subtitle">Додаток</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/4.jpg" alt="">
-                        <h3 class="projects-title">Project Prime</h3>
-                        <p class="projects-text">Marketing</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/4.jpg" alt="" />
+                        <h3 class="advertisement__title">Проєкт Prime</h3>
+                        <p class="advertisement__subtitle">Маркетинг</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/5.jpg" alt="">
-                        <h3 class="projects-title">Boxes project</h3>
-                        <p class="projects-text">Addition</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/5.jpg" alt="" />
+                        <h3 class="advertisement__title">Проєкт Boxes</h3>
+                        <p class="advertisement__subtitle">Додаток</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/6.jpg" alt="">
-                        <h3 class="projects-title">Inspiration has no Borders</h3>
-                        <p class="projects-text">Web-site</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/6.jpg" alt="" />
+                        <h3 class="advertisement__title">Inspiration has no Borders</h3>
+                        <p class="advertisement__subtitle">Веб-сайти</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/7.jpg" alt="">
-                        <h3 class="projects-title">Edition Limited Edition</h3>
-                        <p class="projects-text">Design</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/7.jpg" alt="" />
+                        <h3 class="advertisement__title">Видання Limited Edition</h3>
+                        <p class="advertisement__subtitle">Дизайн</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/8.jpg" alt="">
-                        <h3 class="projects-title">Project LAB</h3>
-                        <p class="projects-text">Marketing</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/8.jpg" alt="" />
+                        <h3 class="advertisement__title">Проєкт LAB</h3>
+                        <p class="advertisement__subtitle">Маркетинг</p>
                     </li>
-                    <li class="projects-item">
-                        <img class="projects-img" src="./img/portfolio/9.jpg" alt="">
-                        <h3 class="projects-title">Growing Business</h3>
-                        <p class="projects-text">Addition</p>
+                    <li class="advertisement__item">
+                        <img src="./img/portfolio/9.jpg" alt="" />
+                        <h3 class="advertisement__title">Growing Business</h3>
+                        <p class="advertisement__subtitle">Додаток</p>
                     </li>
                 </ul>
-            </div>
         </section>
-
+        </div>
     </main>
-    <!-- footers -->
     <footer class="footer">
         <div class="container">
-            <a class="footer__title" href="#">Web<span class="footer__text--colored">Studio</span></a>
-            <a class="footer__adress" href="#">Kyiv, 26 Lesi Ukrainky Ave</a>
-            <a class="footer__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="footer__link" href="tel:++380961111111">+38 096 111 11 11</a>
+            <a class="footer__logo" href="./index.html"><span class="footer__logo--colored">Web</span>Studio</a>
+
+            <ul class="footer__list">
+                <li class="footer__item__adress"><a href="https://maps.app.goo.gl/cqLWHTWQfmtb1CnW7">м. Київ, пр-т Лесі
+                        Українки, 26</a></li>
+                <li><a class="footer__item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="footer__item" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul>
+
         </div>
     </footer>
 </body>
 
-</body>
 </html>
