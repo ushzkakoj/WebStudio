@@ -79,7 +79,7 @@ body {
 
 .hero__title{
   padding-top: 200px;
-  color: #F5F4FA;
+  color: #F5F4 FA;
   margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
@@ -173,33 +173,38 @@ body {
   line-height: 171.429%;
   letter-spacing: 0.42px;
 }
-
-/* works */
-
-.works {
-  margin-bottom: 94px;
-}
-.works__subtitle {
+.works__section__title {
   color: var(--title-color);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  margin-top: 109px;
   margin-bottom: 50px;
+
 }
-.works__list {
+.works__section_list{
   display: flex;
   gap: 30px;
 }
-.works__item {
+
+.works__img__container{
+  position: relative;
 }
 
-.works__img {
+.works__section-text {
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.80);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
-
-/* team */
-
 .team {
   background: #f5f4fa;
   padding-top: 94px;
