@@ -192,14 +192,18 @@ body {
 }
 
 .works__section-text {
+  position: absolute;
+  bottom: 0;
+
   width: 100%;
   height: 70px;
-  background: rgba(47, 48, 58, 0.80);
+  background: rgba(47, 48, 58, 0.8);
+
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -263,7 +267,14 @@ body {
   display: flex;
   flex-direction: column;
 }
-
+.footer__item {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 171.429%;
+  letter-spacing: 0.42px;
+  padding-bottom: 9px;
+}
 
 .footer__text--colored {
   color: white;
@@ -272,13 +283,17 @@ body {
   font-weight: 700;
   letter-spacing: 0.78px;
 }
-.footer__adress {
+.footer__item__adress {
   color: white;
   font-size: 14px;
   font-weight: 400;
   line-height: 171.429%;
   letter-spacing: 0.42px;
   padding-bottom: 9px;
+
+
+
+
 }
 .footer__link {
   color: var(--text-color);
@@ -296,6 +311,26 @@ body {
   letter-spacing: 1.08px;
   padding-bottom: 20px;
 }
+
+
+.footer__item {
+  color: var(--link-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+  margin-bottom: 20px;
+}
+
+.footer__item > span {
+  color: var(--logo-footer-color);
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+
+
+
 
 /* portfolio */
 
@@ -316,49 +351,95 @@ body {
 .services__item {}
 
 .services__buttons {
-    border-radius: 4px;
-    background: #F5F4FA;
-    color: var(--title-color);
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    /* 162.5% */
-    letter-spacing: 0.48px;
-    padding: 6px 22px;
+  color: var(--title-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 162.5%;
+  letter-spacing: 0.48px;
+
+  border-radius: 4px;
+  background: #f5f4fa;
+  padding: 6px 22px;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .services__buttons:focus {
-    background-color: #2196F3;
-    color: white;
+  background-color: #2196f3;
+  color: var(--logo-footer-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+
 }
 
-.advertisement {}
-
 .advertisement__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+  display: flex;
+  align-self: center;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+  margin: 20px 24px;
 }
 
 .advertisement__item {
-    flex-basis: calc((100% - 2 * 30) / 3);
+  margin-left: 30px;
+  margin-top: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 3);
+  border: 1px solid #EEE;
 }
 
-.advertisement__title {
-    color: var(--title-color);
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 36px;
-    /* 200% */
-    letter-spacing: 1.08px;
-    ;
+.advertisement__item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .advertisement__subtitle {
-    color: var(--main-text-color);
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 30px;
-    /* 187.5% */
-    letter-spacing: 0.48px;
+  color: var(--title-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.advertisement__text {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.div__advertisement {
+  position: relative;
+  overflow: hidden;
+}
+
+.div__advertisement:hover .overlay {
+  transform: translateY(0);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 150, 243, 0.90);
+  transform: translateY(100%);
+  transition: transform 400ms ease-in-out;
+}
+
+.overlay__text {
+  width: 322px;
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.54px;
+  margin: 63px 24px;
 }
