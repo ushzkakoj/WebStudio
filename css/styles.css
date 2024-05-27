@@ -79,13 +79,24 @@ body {
 
 .hero__title{
   padding-top: 200px;
-  color: #F5F4 FA;
+ 
   margin-bottom: 30px;
   font-size: 44px;
   font-weight: 900;
   line-height: 136.364%;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+
+
+  color: #FFF;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 136.364%;
+  letter-spacing: 2.64px;
+ 
+  width: 696px;
+  margin: 0 auto;
 }
 
 .hero__button {
@@ -173,32 +184,48 @@ body {
   line-height: 171.429%;
   letter-spacing: 0.42px;
 }
-.works__section__title {
-  color: var(--title-color);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 500;
-  letter-spacing: 1.00px;
-  margin-bottom: 50px;
 
+.works__section__title {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+  
 }
+
 .works__section_list{
   display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
   gap: 30px;
 }
 
 .works__img__container{
   position: relative;
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+  margin-bottom: 94px;
+}
+
+.works__section-img {
+  width: 370px;
+  height: 294px;
+  flex-shrink: 0;
+  margin-bottom: 94px;
+
 }
 
 .works__section-text {
   position: absolute;
   bottom: 0;
-
   width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,6 +236,7 @@ body {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+
 .team {
   background: #f5f4fa;
   padding-top: 94px;
