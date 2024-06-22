@@ -1,0 +1,16 @@
+@import "./utils/variebles";
+
+// BASE
+@import "./base/reset";
+@import "./base/common";
+
+// COMPONENTS
+@import "./components/header";
+@import "./components/hero";
+@import "./components/information";
+@import "./components/works";
+@import "./components/team";
+@import "./components/footer";
+@import "./portfolio/advertisement";
+@import "./portfolio/overlay";
+@import "./portfolio/services";
