@@ -70,3 +70,81 @@
     font-weight: 700;
     letter-spacing: 0.78px;
   }
+
+  .footer__div__link {
+  }
+  .footer__link__subtitle {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+  letter-spacing: 0.96px;
+  }
+  .footer__leaf {
+    width: 12px;
+height: 12px;
+flex-shrink: 0;
+  }
+  .footer__leaf__item {
+  }
+  .team__leaf__link {
+  }
+  .social__leaf {
+    fill: #FFF;
+    width: 24px;
+    height: 24px;
+    right: 30px;
+    top: 13px;
+  }
+  .team__leaf__item {
+    padding-left: 700px;
+    
+  }
+  .footer__modal {
+  }
+  .footer__label__title {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .footer__form {
+    width: 1600px;
+    height: 252px;
+    flex-shrink: 0; 
+  }
+  .footer__label {
+  
+  }
+  .footer__input {
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0; 
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  .footer__form__button {
+    color: #FFF;
+    font-family: Roboto;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  }
+  .footer__form__svg {
+    fill: $hero-color;
+     width: 24px;
+    height: 24px;
+    flex-shrink: 0;;
+  }
