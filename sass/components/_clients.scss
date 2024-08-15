@@ -20,7 +20,7 @@
 
 .clients__item {
   border-radius: 4px;
-  border: 1px solid #6c6c6c;
+  border: 1px solid #AFB1B8;
   padding: 16px 32px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   .clients:hover,
@@ -34,6 +34,6 @@
 }
 
 .clients__link-svg {
-  fill: #696969;
+  fill: #AFB1B8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

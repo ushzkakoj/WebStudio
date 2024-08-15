@@ -11,7 +11,7 @@
 .header__logo {
   color: $title-color;
   font-family: "Raleway", sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.78px;
   margin-right: 93px;
@@ -22,8 +22,8 @@
 }
 
 .header__nav {
-  display: none;
-  // margin-right: 315px;
+  // display: none;
+  margin-right: 315px;
 }
 
 .header__nav__list {
@@ -58,10 +58,10 @@
 }
 
 .header__contact__list {
-  display: none;
-  // display: flex;
-  // gap: 30px;
-  // align-items: center;
+  // display: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 
 .header__contact__icon {

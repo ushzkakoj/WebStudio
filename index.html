@@ -175,6 +175,7 @@
             </ul>
         </div>
         </section>
+
         <section class="team">
             <div class="container">
                 <h2 class="team__subtitle">Our Team</h2>
@@ -322,13 +323,14 @@
                 </ul>
             </div>
         </section>
+
         <section class="clients">
             <h2 class="clients__title">Постійні клієнти</h2>
             <ul class="clients__list">
                 <li class="clients__item">
                     <a href="#" class="clients__item__list-link">
                         <svg class="clients__link-svg" width="106px" height="60px">
-                            <use href="./img/client/symbol-defs.svg#icon-Logo-5"></use>
+                            <use href="./img/icons/symbol-defs.svg#icon-Logo-5"></use>
                         </svg>
                     </a>
                 </li>
@@ -336,7 +338,7 @@
                 <li class="clients__item">
                     <a href="#" class="clients__item__list-link">
                         <svg class="clients__link-svg" width="106px" height="60px">
-                            <use href="./images/icons/symbol-defs.svg#icon-Logo-6"></use>
+                            <use href="./img/icons/symbol-defs.svg#icon-Logo-6"></use>
                         </svg>
                     </a>
                 </li>
@@ -344,7 +346,7 @@
                 <li class="clients__item">
                     <a href="#" class="clients__item__list-link">
                         <svg class="clients__link-svg" width="106px" height="60px">
-                            <use href="./images/icons/symbol-defs.svg#icon-Logo-7"></use>
+                            <use href="./img/icons/symbol-defs.svg#icon-Logo-7"></use>
                         </svg>
                     </a>
                 </li>
@@ -360,7 +362,7 @@
                 <li class="clients__item">
                     <a href="#" class="clients__item__list-link">
                         <svg class="clients__link-svg" width="106px" height="60px">
-                            <use href="./images/icons/symbol-defs.svg#icon-Logo-8"></use>
+                            <use href="./img/icons/symbol-defs.svg#icon-Logo-8"></use>
                         </svg>
                     </a>
                 </li>
@@ -368,7 +370,7 @@
                 <li class="clients__item">
                     <a href="#" class="clients__item__list-link">
                         <svg class="clients__link-svg" width="106px" height="60px">
-                            <use href="./images/icons/symbol-defs.svg#icon-Logo-9"></use>
+                            <use href="./img/icons/symbol-defs.svg#icon-Logo-9"></use>
                         </svg>
                     </a>
                 </li>
@@ -383,10 +385,10 @@
             <a class="footer__link" href="tel:++380961111111">+38 096 111 11 11</a>
         </div>
    
-    <!-- <div class="footer__div__link">
+    <div class="footer__div__link">
         <h3 class="footer__link__subtitle">приєднуйтесь</h3>
         <ul class="footer__leaf">
-            <li class="footer__leaf__item">
+            <li class="team__leaf__item">
                 <a href="" class="team__leaf__link">
                     <svg class="social__leaf">
                         <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
@@ -416,18 +418,23 @@
             </li>
         </ul>
     </div>
-    <div class="footer__modal">
-        <h4 class="footer__label__title">Підпишіться на розсилку</h4>
-        <form class="footer__form">
-            <label for="Email" class="footer__label">
-                <input type="mail" id="Email" class="footer__input" placeholder="E-mail">
-            </label>
-            <button class="footer__form__button" type="button">Підписатися</button>
-            <svg class="footer__form__svg">
-                <use href="./img/icons/symbol-defs.svg#icon-icon-send"></use>
-            </svg>
-        </form>
-    </div> -->
+    
+    <div class="footer__send-div">
+        <label for="send" class="footer__label">підпишіться на розсилку</label>
+
+        <div class="footer__send-form">
+            <input type="email" placeholder="E-mail" id="send" class="footer__input" required>
+            <a href="#" class="footer__link-send">
+                <button class="footer__send">
+                    <p class="footer__send-text">Підписатися</p>
+                    <svg class="footer__svg">
+                        <use href="./imag/icons/symbol-defs.svg#icon-icon-send"></use>
+                    </svg>
+                </button>
+            </a>
+        </div>
+    </div>
+  
 </footer>
   </body>
 </html>

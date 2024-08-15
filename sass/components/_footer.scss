@@ -1,13 +1,18 @@
 .footer {
     background: #2f303a;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
+    width: 2000px;
+    height: 252px;
+
   }
   
   
   .footer .container{
     display: flex;
     flex-direction: column;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
   }
   .footer__item {
     color: white;
@@ -15,7 +20,7 @@
     font-weight: 400;
     line-height: 171.429%;
     letter-spacing: 0.42px;
-    padding-bottom: 9px;
+    // padding-bottom: 9px;
   }
   
   .footer__text--colored {
@@ -31,7 +36,7 @@
     font-weight: 400;
     line-height: 171.429%;
     letter-spacing: 0.42px;
-    padding-bottom: 9px;
+    // padding-bottom: 9px;
   
   
   
@@ -42,7 +47,7 @@
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.42px;
-    padding-bottom: 9px;
+    // padding-bottom: 9px;
   }
   
   .footer__title {
@@ -51,7 +56,7 @@
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 1.08px;
-    padding-bottom: 20px;
+    // padding-bottom: 20px;
   }
   
   
@@ -61,7 +66,7 @@
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
   }
   
   .footer__item > span {
@@ -72,7 +77,10 @@
   }
 
   .footer__div__link {
+    
   }
+
+  
   .footer__link__subtitle {
   color: #FFF;
   text-align: center;
@@ -82,15 +90,36 @@
   font-weight: 700;
   line-height: 30px; 
   letter-spacing: 0.96px;
+  padding-left: 516px;
+  padding-right: 968px;
+  // padding-top: 72px;
   }
+  
+  
+  
+  
   .footer__leaf {
-    width: 12px;
-height: 12px;
-flex-shrink: 0;
+    display: flex;
+    padding-left: 636px;
+    // justify-content: stretch;
+    // align-items: stretch;
+    // gap: 2px;
   }
   .footer__leaf__item {
+    align-items: center;
+    gap: 2px;
+    padding-left: 700px;
+ 
+  
+   
   }
   .team__leaf__link {
+    
+    display: flex;
+    // justify-content: flex;
+    // align-items: stretch;
+  
+    
   }
   .social__leaf {
     fill: #FFF;
@@ -98,53 +127,97 @@ flex-shrink: 0;
     height: 24px;
     right: 30px;
     top: 13px;
-  }
-  .team__leaf__item {
-    padding-left: 700px;
     
   }
-  .footer__modal {
+  .team__leaf__item {
+    padding-left: 7px;
+    height: 10px; 
+    
   }
-  .footer__label__title {
-    color: #FFF;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
-  }
-  .footer__form {
-    width: 1600px;
-    height: 252px;
-    flex-shrink: 0; 
-  }
-  .footer__label {
   
+
+
+
+
+.footer__label{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+  .footer__send-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-top: 50px;
+
   }
+ 
+  .footer__send-form {
+    // margin-top: 0px;
+    // margin-bottom: 100px;
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+    padding-left: 815px;
+    padding-right: 427px;
+
+  }
+  
   .footer__input {
-    width: 358px;
-    height: 50px;
-    flex-shrink: 0; 
     border-radius: 4px;
-    border: 1px solid rgba(255, 255, 255, 0.30);
-    background: rgba(33, 150, 243, 0.00);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(33, 150, 243, 0);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    width: 450px;
+    height: 50px;
+    padding-left: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.48px;
+    // margin-bottom: 20px;
+    align-items: center;
+    
   }
-  .footer__form__button {
-    color: #FFF;
-    font-family: Roboto;
+  
+  .footer__send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     width: 200px;
     height: 50px;
-    flex-shrink: 0;
     border-radius: 4px;
-    background: #2196F3;
+    background: $link-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    gap: 12px;
+   
   }
-  .footer__form__svg {
-    fill: $hero-color;
-     width: 24px;
+  
+  .footer__svg {
+    width: 24px;
     height: 24px;
-    flex-shrink: 0;;
+    fill: #fff;
   }
+
+  .footer__send-text {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 187.5%;
+    letter-spacing: 0.96&
+}
+
+
+  
+
+
+
+
+
