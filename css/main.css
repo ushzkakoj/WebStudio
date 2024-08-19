@@ -117,7 +117,7 @@ body {
 }
 
 .header__contact__icon {
-  fill: #757575;
+  fill: currentColor;
 }
 
 .header__contact__link {
@@ -132,11 +132,6 @@ body {
 .header__contact__link:focus {
   color: #2196F3;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header__contact__icon:hover,
-.header__contact__icon:focus {
-  fill: #2196F3;
 }
 
 @media screen and (min-width: 768px) {

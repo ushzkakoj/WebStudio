@@ -65,7 +65,7 @@
 }
 
 .header__contact__icon {
-  fill: #757575;
+  fill: currentColor;
 }
 
 .header__contact__link {
@@ -84,10 +84,6 @@
 }
 
 
-.header__contact__icon:hover,
-.header__contact__icon:focus{
-  fill:  #2196F3;
-}
 
 
 
