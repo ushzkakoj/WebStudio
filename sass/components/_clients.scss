@@ -30,3 +30,12 @@
 }
 
 
+.footer__social__link:hover,
+.footer__social__link:focus{
+  background-color:  $link-color;
+}
+
+.footer__social__link:hover .sociale__icons,
+.footer__social__link:focus .sociale__icons{
+  fill:  #2196F3;
+}
