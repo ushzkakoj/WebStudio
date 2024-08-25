@@ -1,75 +1,72 @@
-.services{
+.services {
   margin-top: 132px;
   margin-bottom: 56px;
-}
 
-.services__list {
+  &__list {
     display: flex;
     justify-content: center;
     gap: 8px;
-}
+  }
 
-.services__buttons {
-  color: #212121;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 162.5%;
-  letter-spacing: 0.48px;
-  border-radius: 4px;
-  background: #F5F4FA;
-  padding: 6px 22px;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+  &__buttons {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 162.5%;
+    letter-spacing: 0.48px;
+    border-radius: 4px;
+    background: #f5f4fa;
+    padding: 6px 22px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 
-.services__buttons:focus,
-.services__buttons:hover  {
-  background-color: #2196f3;
-  color: $hero-color;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  &__buttons:focus,
+  &__buttons:hover {
+    background-color: #2196f3;
+    color: $hero-color;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  }
 
-}
+  @media screen and (min-width: 1200px) {
+    &__list {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 132px;
+      margin-bottom: 56px;
+    }
 
-@media screen and (min-width: 1200px) {
-  .services__list {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
-    margin-top: 132px;
-    margin-bottom: 56px;
-}
+    &__buttons {
+      color: #212121;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 162.5%;
+      letter-spacing: 0.48px;
+      border-radius: 4px;
+      background: #f5f4fa;
+      padding: 6px 22- px;
+      cursor: pointer;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
-.services__buttons {
-  color: #212121;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 162.5%;
-  letter-spacing: 0.48px;
-  border-radius: 4px;
-  background: #F5F4FA;
-  padding: 6px 22- px;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    &__buttons:focus {
+      background-color: #2196f3;
+      color: $hero-color #ffff;
+      box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    }
 
-.services__buttons:focus {
-  background-color: #2196f3;
-  color: $hero-color #FFFF;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-
-}
-
-.services__buttons:hover {
-  color: rgb(255, 255, 255);
-  background-color: #2196f3;
-}
-  
+    &__buttons:hover {
+      color: rgb(255, 255, 255);
+      background-color: #2196f3;
+    }
+  }
 }

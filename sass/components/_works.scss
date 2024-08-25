@@ -1,4 +1,7 @@
-.works__section__title {
+.works {
+  align-items: center;
+
+  &__section__title {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -7,33 +10,32 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-    
+    margin-top: 80px;
   }
-  
-  .works__section_list{
+
+  &__section_list {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     gap: 30px;
   }
-  
-  .works__img__container{
+
+  &__img__container {
     position: relative;
     width: 370px;
     height: 294px;
     flex-shrink: 0;
     margin-bottom: 94px;
   }
-  
-  .works__section-img {
+
+  &__section-img {
     width: 370px;
     height: 294px;
     flex-shrink: 0;
     margin-bottom: 94px;
-  
   }
-  
-  .works__section-text {
+
+  &__section-text {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -49,4 +51,4 @@
     letter-spacing: 0.42px;
     text-transform: uppercase;
   }
-  
+}

@@ -40,14 +40,23 @@
           </ul>
         </nav>
         <ul class="header__contact__list">
-          <li class="header__contact__link"> 
-            <a href="meilto:info@devstudio.com" class="header__contact__link"
-              >info@devstudio.com</a
+          <li>
+            <a class="header__contact__link" href="mailto:info@devstudio.com">
+              <svg class="header__contact__icon" width="16" height="12">
+                <use
+                  href="./img/icons/symbol-defs.svg#icon-envelope-hover"
+                ></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li class="header__contact__link">
-            <a href="tel:+380961111111" class="header__contact__link"
-              >+38 096 111 11 11</a
+          <li>
+            <a class="header__contact__link" href="tel:++380961111111">
+              <svg class="header__contact__icon" width="10" height="16">
+                <use href="./img/icons/symbol-defs.svg#icon-smartphone"></use>
+              </svg>
+
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -223,8 +232,8 @@
                   </p>
                 </div>
               </div>
-              <h3 class="project__subtitle">Проєкт LAB</h3>
-              <p class="project__text">Маркетинг</p>
+              <h3 class="advertisement__subtitle">Проєкт LAB</h3>
+              <p class="advertisement__text">Маркетинг</p>
             </li>
             <li class="advertisement__item">
               <div class="div__advertisement">
@@ -248,30 +257,74 @@
         </div>
       </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
       <div class="container">
-        <a class="footer__item" href="#"
-          >Web<span class="footer__text--colored">Studio</span></a
-        >
+        <div class="footer__info">
+          <a class="footer__logo" href="#"
+            >Web<span class="footer__logo--colored">Studio</span></a
+          >
+          <a class="footer__adress" href="#">Kyiv, 26 Lesi Ukrainky Ave</a>
+          <a class="footer__link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+          <a class="footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
+        <div class="footer__social__links">
+          <h3 class="footer__link__subtitle">ПРИЕДНУЙТЕСЬ</h3>
+          <ul class="footer__social__list">
+            <li class="footer__social__item">
+              <a href="" class="footer__social__link">
+                <svg class="footer__social__icon">
+                  <use href="./img/icons/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social__item">
+              <a href="" class="footer__social__link">
+                <svg class="footer__social__icon">
+                  <use href="./img/icons/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social__item">
+              <a href="" class="footer__social__link">
+                <svg class="footer__social__icon">
+                  <use href="./img/icons/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social__item">
+              <a href="" class="footer__social__link">
+                <svg class="footer__social__icon">
+                  <use href="./img/icons/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-        <ul class="footer__list">
-          <li class="footer__item__adress">
-            <a href="https://maps.app.goo.gl/cqLWHTWQfmtb1CnW7"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a class="footer__logo" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="footer__logo" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
+        <div class="footer__send-div">
+          <h3 class="footer__link__subtitle">ПIДПИШIТЬСЯ НА РОЗСИЛКУ</h3>
+
+          <form class="footer__form">
+            <label class="footer__label">
+              <input
+                type="email"
+                placeholder="E-mail"
+                id="send"
+                class="footer__input"
+                required
+              />
+            </label>
+            <button class="footer__button">
+                Підписатися
+              <svg class="footer__button__svg">
+                <use href="./img/icons/symbol-defs.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
