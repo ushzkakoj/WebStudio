@@ -590,24 +590,20 @@ body {
   gap: 30px;
   margin: 20px 24px;
 }
-
 .advertisement__list {
   display: flex;
   align-self: center;
   flex-wrap: wrap;
 }
-
 .advertisement__item {
   margin-left: 30px;
   margin-top: 30px;
-  border: 1px solid #EEE;
+  border: 1px solid #eee;
   margin-bottom: 94px;
 }
-
 .advertisement__item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
 .advertisement__subtitle {
   color: #000;
   font-size: 16px;
@@ -617,7 +613,6 @@ body {
   padding-left: 20px;
   padding-top: 15px;
 }
-
 .advertisement__text {
   color: #757575;
   font-size: 14px;
@@ -628,34 +623,35 @@ body {
   padding-top: 5px;
   padding-bottom: 10px;
 }
-
-.div__advertisement {
+.advertisement .div__advertisement {
   position: relative;
   overflow: hidden;
 }
-
-.div__advertisement:hover .overlay {
+.advertisement .div__advertisement:hover .overlay {
   transform: translateY(0);
 }
-
 @media screen and (min-width: 1200px) {
-  .advertisement__list {
+  .advertisement .advertisement {
+    gap: 30px;
+    margin: 20px 24px;
+  }
+  .advertisement .advertisement__list {
     display: flex;
     align-self: center;
     flex-wrap: wrap;
     /* gap: 30px; */
     margin: 20px 24px;
   }
-  .advertisement__item {
+  .advertisement .advertisement__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 90px) / 3);
-    border: 1px solid #EEE;
+    border: 1px solid #eee;
   }
-  .advertisement__item:hover {
+  .advertisement .advertisement__item:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   }
-  .advertisement__subtitle {
+  .advertisement .advertisement__subtitle {
     color: #000;
     font-size: 16px;
     font-weight: 700;
@@ -664,7 +660,7 @@ body {
     padding-left: 20px;
     padding-top: 15px;
   }
-  .advertisement__text {
+  .advertisement .advertisement__text {
     color: #757575;
     font-size: 14px;
     font-weight: 400;
@@ -674,14 +670,15 @@ body {
     padding-top: 5px;
     padding-bottom: 10px;
   }
-  .div__advertisement {
+  .advertisement .advertisement .div__advertisement {
     position: relative;
     overflow: hidden;
   }
-  .div__advertisement:hover .overlay {
+  .advertisement .advertisement .div__advertisement:hover .overlay {
     transform: translateY(0);
   }
 }
+
 .overlay {
   position: absolute;
   bottom: 0;
@@ -691,7 +688,6 @@ body {
   transform: translateY(100%);
   transition: transform 400ms ease-in-out;
 }
-
 .overlay__text {
   width: 322px;
   color: white;
@@ -706,13 +702,11 @@ body {
   margin-top: 132px;
   margin-bottom: 56px;
 }
-
 .services__list {
   display: flex;
   justify-content: center;
   gap: 8px;
 }
-
 .services__buttons {
   color: #212121;
   text-align: center;
@@ -721,28 +715,29 @@ body {
   line-height: 162.5%;
   letter-spacing: 0.48px;
   border-radius: 4px;
-  background: #F5F4FA;
+  background: #f5f4fa;
   padding: 6px 22px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.services__buttons:focus,
-.services__buttons:hover {
+.services__buttons:focus, .services__buttons:hover {
   background-color: #2196f3;
   color: white;
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
-
 @media screen and (min-width: 1200px) {
-  .services__list {
+  .services .services {
+    margin-top: 132px;
+    margin-bottom: 56px;
+  }
+  .services .services__list {
     display: flex;
     justify-content: center;
     gap: 8px;
     margin-top: 132px;
     margin-bottom: 56px;
   }
-  .services__buttons {
+  .services .services__buttons {
     color: #212121;
     text-align: center;
     font-size: 16px;
@@ -750,17 +745,17 @@ body {
     line-height: 162.5%;
     letter-spacing: 0.48px;
     border-radius: 4px;
-    background: #F5F4FA;
+    background: #f5f4fa;
     padding: 6px 22-px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .services__buttons:focus {
+  .services .services__buttons:focus {
     background-color: #2196f3;
     color: white white;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   }
-  .services__buttons:hover {
+  .services .services__buttons:hover {
     color: rgb(255, 255, 255);
     background-color: #2196f3;
   }

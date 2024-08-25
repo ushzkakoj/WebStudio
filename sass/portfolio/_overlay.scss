@@ -6,7 +6,7 @@
     background: rgba(33, 150, 243, 0.90);
     transform: translateY(100%);
     transition: transform 400ms ease-in-out;
-  }
+ 
   
   &__text {
     width: 322px;
@@ -17,3 +17,4 @@
     letter-spacing: 0.54px;
     margin: 63px 24px;
   }
+}
