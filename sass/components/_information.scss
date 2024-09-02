@@ -16,28 +16,20 @@
   }
 
   &__item:nth-child(1):before {
-    background-image: url("../img/pnmb/antenna\ 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
+   @include button(url("../img/pnmb/antenna\ 1.png"))
   }
+
   &__item:nth-child(2):before {
-    background-image: url("../img/pnmb/clock\ 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
+    @include button(url("../img/pnmb/clock\ 1.png"))
   }
+
   &__item:nth-child(3):before {
-    background-image: url("../img/pnmb/diagram\ 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
+    @include button(url("../img/pnmb/diagram\ 1.png"));
+
   }
   &__item:nth-child(4):before {
-    background-image: url("../img/pnmb/astronaut\ 1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 30px;
+    @include button(url("../img/pnmb/astronaut\ 1.png"));
+    
   }
 
   &__title {

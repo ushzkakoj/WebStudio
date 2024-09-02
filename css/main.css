@@ -1,3 +1,11 @@
+.header__nav__link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+}
+
 /* Reset styles */
 *,
 *::after,
@@ -81,11 +89,6 @@ body {
   align-items: center;
 }
 .header__nav__link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #757575;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.28px;
   position: relative;
   color: #212121;
 }
@@ -586,25 +589,25 @@ body {
     margin: 15px 0;
   }
 }
-.advertisement {
+.advertisement__section {
   gap: 30px;
   margin: 20px 24px;
 }
-.advertisement__list {
+.advertisement__section__list {
   display: flex;
   align-self: center;
   flex-wrap: wrap;
 }
-.advertisement__item {
+.advertisement__section__item {
   margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #eee;
   margin-bottom: 94px;
 }
-.advertisement__item:hover {
+.advertisement__section__item:hover {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.advertisement__subtitle {
+.advertisement__section__subtitle {
   color: #000;
   font-size: 16px;
   font-weight: 700;
@@ -613,7 +616,7 @@ body {
   padding-left: 20px;
   padding-top: 15px;
 }
-.advertisement__text {
+.advertisement__section__text {
   color: #757575;
   font-size: 14px;
   font-weight: 400;
@@ -623,35 +626,35 @@ body {
   padding-top: 5px;
   padding-bottom: 10px;
 }
-.advertisement .div__advertisement {
+.advertisement__section .div__advertisement {
   position: relative;
   overflow: hidden;
 }
-.advertisement .div__advertisement:hover .overlay {
+.advertisement__section .div__advertisement:hover .overlay {
   transform: translateY(0);
 }
 @media screen and (min-width: 1200px) {
-  .advertisement .advertisement {
+  .advertisement__section .advertisement {
     gap: 30px;
     margin: 20px 24px;
   }
-  .advertisement .advertisement__list {
+  .advertisement__section .advertisement__list {
     display: flex;
     align-self: center;
     flex-wrap: wrap;
     /* gap: 30px; */
     margin: 20px 24px;
   }
-  .advertisement .advertisement__item {
+  .advertisement__section .advertisement__item {
     margin-left: 30px;
     margin-top: 30px;
     flex-basis: calc((100% - 90px) / 3);
     border: 1px solid #eee;
   }
-  .advertisement .advertisement__item:hover {
+  .advertisement__section .advertisement__item:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
   }
-  .advertisement .advertisement__subtitle {
+  .advertisement__section .advertisement__subtitle {
     color: #000;
     font-size: 16px;
     font-weight: 700;
@@ -660,7 +663,7 @@ body {
     padding-left: 20px;
     padding-top: 15px;
   }
-  .advertisement .advertisement__text {
+  .advertisement__section .advertisement__text {
     color: #757575;
     font-size: 14px;
     font-weight: 400;
@@ -670,11 +673,11 @@ body {
     padding-top: 5px;
     padding-bottom: 10px;
   }
-  .advertisement .advertisement .div__advertisement {
+  .advertisement__section .advertisement .div__advertisement {
     position: relative;
     overflow: hidden;
   }
-  .advertisement .advertisement .div__advertisement:hover .overlay {
+  .advertisement__section .advertisement .div__advertisement:hover .overlay {
     transform: translateY(0);
   }
 }

@@ -1,0 +1,6 @@
+@mixin button($url){
+background-image: $url;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom: 30px;
+}
