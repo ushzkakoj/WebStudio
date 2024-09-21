@@ -192,25 +192,25 @@ body {
   height: 120px;
 }
 .information__item:nth-child(1):before {
-  background-image: url("../img/pnmb/antenna 1.png");
+  background-image: url("../../img/pnmb/antenna.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 .information__item:nth-child(2):before {
-  background-image: url("../img/pnmb/clock 1.png");
+  background-image: url("../../img/pnmb/clock.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 .information__item:nth-child(3):before {
-  background-image: url("../img/pnmb/diagram 1.png");
+  background-image: url("../../img/pnmb/diagram.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 .information__item:nth-child(4):before {
-  background-image: url("../img/pnmb/astronaut 1.png");
+  background-image: url("../../img/pnmb/astronaut.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;

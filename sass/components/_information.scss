@@ -16,19 +16,19 @@
   }
 
   &__item:nth-child(1):before {
-   @include button(url("../img/pnmb/antenna\ 1.png"))
+   @include button(url("../../img/pnmb/antenna.png"))
   }
 
   &__item:nth-child(2):before {
-    @include button(url("../img/pnmb/clock\ 1.png"))
+    @include button(url("../../img/pnmb/clock.png"))
   }
 
   &__item:nth-child(3):before {
-    @include button(url("../img/pnmb/diagram\ 1.png"));
+    @include button(url("../../img/pnmb/diagram.png"));
 
   }
   &__item:nth-child(4):before {
-    @include button(url("../img/pnmb/astronaut\ 1.png"));
+    @include button(url("../../img/pnmb/astronaut.png"));
     
   }
 
