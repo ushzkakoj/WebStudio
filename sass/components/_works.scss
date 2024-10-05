@@ -1,54 +1,61 @@
 .works {
-  align-items: center;
-  
-  &__section__title {
-    color: #212121;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-    margin-top: 80px;
-  }
+ display: none;
+}
 
-  &__section_list {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    gap: 30px;
-  }
-
-  &__img__container {
-    position: relative;
-    width: 370px;
-    height: 294px;
-    flex-shrink: 0;
-    margin-bottom: 94px;
-  }
-
-  &__section-img {
-    width: 370px;
-    height: 294px;
-    flex-shrink: 0;
-    margin-bottom: 94px;
-  }
-
-  &__section-text {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 70px;
-    background: rgba(47, 48, 58, 0.8);
-    display: flex;
-    justify-content: center;
+@media screen and (min-width: 1200px) {
+  .works {
     align-items: center;
-    text-align: center;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 700;
-    letter-spacing: 0.42px;
-    text-transform: uppercase;
+    display: block;
+    
+    &__section__title {
+      color: #212121;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1.08px;
+      margin-top: 80px;
+    }
+  
+    &__section_list {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+      gap: 30px;
+    }
+  
+    &__img__container {
+      position: relative;
+      width: 370px;
+      height: 294px;
+      flex-shrink: 0;
+      margin-bottom: 94px;
+    }
+  
+    &__section-img {
+      width: 370px;
+      height: 294px;
+      flex-shrink: 0;
+      margin-bottom: 94px;
+    }
+  
+    &__section-text {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 70px;
+      background: rgba(47, 48, 58, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+    }
   }
 }
