@@ -371,8 +371,8 @@ body {
 }
 .team {
   background-color: #f5f4fa;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .team__subtitle {
   color: #000;
@@ -394,7 +394,7 @@ body {
   background-color: white;
 }
 .team__img {
-  width: 270px;
+  width: 450px;
 }
 .team__item__content {
   padding: 30px 32px;
@@ -520,6 +520,19 @@ body {
   }
   .team__icons__link:hover .sociale__icons, .team__icons__link:focus .sociale__icons {
     fill: white;
+  }
+}
+@media screen and (min-width: 1200px) and (min-width: 768px) {
+  .team__section__list-item {
+    width: 353px;
+  }
+  .team__section__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .team__section__item__list-svg {
+    padding-bottom: 24px;
   }
 }
 .footer {
